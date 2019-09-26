@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 const INPUT_HEIGHT = 48;
 const BORDER_RADIUS = 4;
 
-export default EStyleSheet.create({
+const styles = EStyleSheet.create({
   $buttonBackgroundColorBase: "$white",
   $buttonBackgroundColorModifier: 0.2,
   container: {
@@ -46,3 +46,4 @@ export default EStyleSheet.create({
     backgroundColor: "$border"
   }
 });
+export default styles;
